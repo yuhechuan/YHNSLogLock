@@ -10,7 +10,7 @@
 /*
  * 覆盖系统的 NSLog 函数
  */
-#define NSLog(...) YHBaseTestLog(__VA_ARGS__)
+#define NSLog(...) YHTestLog(__VA_ARGS__)
 
 @interface YHNSLogLock : NSObject {
 @public
